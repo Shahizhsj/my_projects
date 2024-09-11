@@ -108,38 +108,18 @@ Welcome to my repository! Here you'll find a collection of my deep learning proj
 
 **Notebook:** [sign_language_detection.ipynb](sign_language_detection.ipynb)
 
-# Web Scraping for Mobile Comparison
 
-This project leverages Selenium for web scraping and Gradio for creating a user-friendly interface to compare mobile phones' specifications and reviews. 
+---
 
-## Project Overview
 
-The script uses Selenium to automate interactions with the **MySmartPrice** website, extracting detailed information about mobile phones. Gradio provides a simple interface for users to enter mobile models and view the collected data.
+## 🌐 **Web Scraping for Mobile Comparison**
+**Description:** This project utilizes Selenium for web scraping and Gradio for creating a user-friendly interface to compare mobile phones' specifications and reviews. It automates interactions with the **MySmartPrice** website to extract detailed information about mobile phones and presents it in a simple web interface for comparison.
 
-## Features
+**Key Features:**
+- **Search Functionality:** Automates the search for mobile models on MySmartPrice.
+- **Specification Extraction:** Retrieves and displays detailed specifications of selected mobile models.
+- **Review Extraction:** Collects and presents additional review details about the mobile phones.
+- **Comparison Interface:** Provides a Gradio-based web interface for comparing multiple mobile models.
 
-- **Search Functionality:** Automated search for mobile models on MySmartPrice.
-- **Specification Extraction:** Retrieves and displays specifications of the selected mobile model.
-- **Review Extraction:** Collects additional review details about the mobile phone.
-- **Comparison Interface:** Allows users to compare multiple mobile models via a web interface.
+**Script:** [web_scraping.py](web_scraping.py)
 
-## How It Works
-
-1. **Web Scraping:** Utilizes Selenium to navigate the MySmartPrice website, perform searches, and extract product details.
-2. **User Input:** Gradio interface enables users to input mobile model names for comparison.
-3. **Multi-threading:** Concurrently fetches data for multiple models to improve efficiency.
-
-## Technologies Used
-
-- **Python:** Main programming language.
-- **Selenium:** For web scraping and automation.
-- **Gradio:** For building the web interface.
-- **Concurrent Futures:** To handle asynchronous tasks.
-
-## Usage
-
-1. **Run the Script:** Execute the `web_scraping.py` file to start the application.
-2. **Input Mobile Models:** Enter the mobile model names in the provided text boxes.
-3. **Compare Models:** Click the "Compare!" button to view specifications and reviews.
-
-**Code:** [web_scrapping.py](web_scrapping.py)
