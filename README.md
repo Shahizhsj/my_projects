@@ -121,5 +121,5 @@ Welcome to my repository! Here you'll find a collection of my deep learning proj
 - **Review Extraction:** Collects and presents additional review details about the mobile phones.
 - **Comparison Interface:** Provides a Gradio-based web interface for comparing multiple mobile models.
 
-**Script:** [web_scraping.py](web_scraping.py)
+**Script:** [web_scrapping.py](web_scrapping.py)
 
