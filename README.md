@@ -123,3 +123,16 @@ Welcome to my repository! Here you'll find a collection of my deep learning proj
 
 **Script:** [web_scrapping.py](web_scrapping.py)
 
+---
+
+## 🌐 **Stock Analysis and News Aggregator**
+**Description:** This project combines various data sources and analysis tools to provide comprehensive insights into stock performance. It uses Yahoo Finance for financial data, BeautifulSoup for scraping news, and LangChain for advanced query handling and analysis. The Flask application delivers detailed stock analyses and recent news through a user-friendly API.
+
+**Key Features:**
+- **Stock Price Data:** Fetches historical stock price and volume data.
+- **Recent News:** Scrapes and returns recent news about the stock.
+- **Financial Statements:** Retrieves company balance sheets for fundamental analysis.
+- **Technical Indicators:** Provides analysis using various technical indicators like SMA, EMA, RSI, MACD, and more.
+- **Advanced Query Handling:** Utilizes LangChain for processing and responding to detailed stock-related queries.
+
+**Script:** [FInGpt.py](FinGpt.py)
